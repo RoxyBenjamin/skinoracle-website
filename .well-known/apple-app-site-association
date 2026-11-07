@@ -1,0 +1,18 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["TEAMID.ai.skinoracle.app"],
+        "components": [
+          { "/": "/app/auth", "exclude": true, "comment": "Web sign-in return page: always stays in the browser" },
+          { "/": "/app/auth/*", "exclude": true, "comment": "Web sign-in return page: always stays in the browser" },
+          { "/": "/app", "comment": "Member home" },
+          { "/": "/app/*", "comment": "Member area: shelf, health vault, account, privacy, routine" }
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": ["TEAMID.ai.skinoracle.app"]
+  }
+}
