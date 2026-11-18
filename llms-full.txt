@@ -1,0 +1,279 @@
+# SkinOracle: the full guide
+
+Source: https://skinoracle.ai/ · Independent skin care, founded by Roxy Benjamin. Education, not medical advice; SkinOracle never diagnoses. No sponsored content or paid placements; price checks are sorted by price only, never by commission (some offer links may earn a commission, always disclosed).
+
+## What we believe
+- Expensive isn’t the same as effective. What’s inside, and how you use it, matter more than the price on the box.
+- How you use it is everything. How much, when, and in what order you layer it decide whether a product can do its job.
+- Routine beats everything. No product works if it sits on the shelf, or gets used now and then.
+
+## The science
+
+### What is the skin barrier, and why does it matter?
+URL: https://skinoracle.ai/science/skin-barrier/ · Updated 2026-11-13 · Reviewed by [Dermatologist name, credentials] on [date]
+
+Your skin barrier is the outermost layer of your skin: flat cells held together by fats, a bit like bricks and mortar. It keeps water in and irritants out, and when it’s worn down, skin tends to feel dry, tight and quick to sting.
+
+#### What it’s made of
+- Skin cells are the bricks; fats such as ceramides, cholesterol and fatty acids are the mortar between them.
+- [Detail to add and check: how the barrier renews itself, and how long that takes, with a source.]
+
+#### What wears it down
+- Washing too often, or with hot water.
+- Too many strong actives at once, or starting them too fast.
+- Very dry air, cold wind and long hot showers.
+- Harsh cleansers and, for some skin, fragrance.
+
+#### How to look after it
+- A gentle cleanser, once or twice a day.
+- A moisturizer with barrier fats (ceramides, cholesterol, fatty acids).
+- Fewer actives, started slowly, one at a time.
+- Sunscreen every morning.
+
+#### When to see a doctor
+- If skin stays sore, cracked or bleeding, or doesn’t settle after a couple of weeks of gentle care, please see your doctor.
+
+Q: How do I know if my skin barrier is damaged?
+A: Skin that suddenly stings with products it used to like, feels tight and dry all day, or looks red and flaky is often a sign the barrier needs a rest. Go back to a gentle cleanser, moisturizer and sunscreen for a while.
+
+Q: How long does the skin barrier take to recover?
+A: [Fact to add and check: a typical range, with a source.] Simple, gentle care and patience help most.
+
+Sources: [Source: a peer-reviewed review of the skin barrier]; [Source: a dermatology association’s patient page]
+
+### What does “active ingredient” mean in skin care?
+URL: https://skinoracle.ai/science/actives/ · Updated 2026-11-13 · Reviewed by [Dermatologist name, credentials] on [date]
+
+An “active” is an ingredient added to change how skin looks or behaves over time, like a retinoid, an exfoliating acid or vitamin C. Actives can do a lot, which is exactly why more isn’t better: the right one, used steadily, beats several used at once.
+
+#### The main families
+- Retinoids (retinol, retinal): speed up how skin renews; evenings only.
+- AHAs (glycolic, lactic, mandelic): smooth the surface.
+- BHA (salicylic acid): clears inside pores.
+- Vitamin C: an antioxidant, best in the morning under sunscreen.
+- Niacinamide and azelaic acid: gentler, and easy to fit in.
+
+#### How to start
+- One new active at a time.
+- Two or three nights a week at first, then more if skin is happy.
+- Patch test first, and use sunscreen every morning.
+
+#### Strengths and percentages
+- [Fact to add and check: typical starting strengths for each family, with sources.]
+- A higher percentage is not automatically better; it is often just harsher.
+
+#### When to stop
+- If skin stings, peels or stays red, stop the active and let skin settle. If it doesn’t settle, please see your doctor.
+
+Q: Can I use two actives at the same time?
+A: Some pairs are fine, others are better at different times of day or on different nights. Try the “Can I mix these?” tool in the Skin Toolkit for the common pairs.
+
+Q: How long do actives take to work?
+A: Weeks, not days. Most need steady use for [a range to add and check, with a source] before you can judge them.
+
+Sources: [Source: a peer-reviewed review of topical retinoids]; [Source: a review of exfoliating acids]; [Source: a review of topical vitamin C]
+
+### In what order should I apply skin care?
+URL: https://skinoracle.ai/science/layering/ · Updated 2026-11-13 · Reviewed by [Dermatologist name, credentials] on [date]
+
+Apply skin care from the thinnest texture to the thickest, after cleansing, and finish with sunscreen in the morning. Some actives work better at different times of day, so both the order and the pairing matter.
+
+#### The order
+- Cleanser, then toner or essence (optional), then serum, then moisturizer.
+- In the morning, sunscreen goes last, on top of everything.
+- Oils go after water-based layers; a very rich balm goes last at night.
+
+#### Pairs that clash, and pairs that team up
+- Retinoids and exfoliating acids: better on different nights.
+- Vitamin C and a retinoid: vitamin C in the morning, the retinoid at night.
+- Retinoids or acids and sunscreen: a must-have pair.
+- Check any two in the “Can I mix these?” tool.
+
+#### How long to wait between layers
+- [Fact to add and check: whether waiting matters, and for which products, with a source.]
+
+#### Step by step
+1. Cleanse: Wash with a gentle cleanser and lukewarm water; pat dry.
+2. Toner or essence (optional): If you use one, it goes first: it’s the thinnest layer.
+3. Serum: Your active or hydrating serum. One active per routine is plenty.
+4. Moisturizer: Seals in the layers underneath.
+5. Sunscreen (morning): Last step every morning: about two finger-lengths for face and neck.
+
+Q: Does the order of skin care really matter?
+A: Yes. Thin, watery products sink in best on clean skin; heavier creams on top help hold everything in, and sunscreen needs to sit on the surface to protect it.
+
+Q: Can I use retinol and vitamin C together?
+A: Yes, just not at the same time. They work best at different times of day: vitamin C in the morning, under your sunscreen, and retinol in the evening.
+
+Sources: [Source: a dermatology association’s guide to skin-care order]; [Source: a review of ingredient interactions]
+
+### Do I really need sunscreen every day?
+URL: https://skinoracle.ai/science/sunscreen/ · Updated 2026-11-13 · Reviewed by [Dermatologist name, credentials] on [date]
+
+Yes: daily sunscreen is the most protective step in any routine, because UV reaches skin on cloudy days and through windows, and its effects add up over years. Use enough (about two finger-lengths for face and neck), choose broad spectrum SPF 30 or higher, and reapply every two hours outdoors.
+
+#### How much
+- About two finger-lengths for face and neck: most people use far less than the amount sunscreens are tested with.
+- [Fact to add and check: the amount in teaspoons or millilitres, with a source.]
+
+#### SPF and broad spectrum
+- SPF measures protection from UVB (the burning rays); “broad spectrum” means it also protects from UVA.
+- [Fact to add and check: what the SPF numbers mean in practice, with a source.]
+
+#### Mineral or chemical filters
+- Mineral filters (zinc oxide, titanium dioxide) and chemical filters both work. The best sunscreen is the one you’ll wear every day.
+
+#### When to see a doctor
+- If a mole or spot changes in size, shape or colour, or looks different from the others, please see your doctor.
+
+Q: Do I need sunscreen on cloudy days?
+A: Yes. Much of the sun’s UV gets through clouds.
+
+Q: Do I need sunscreen indoors?
+A: Near windows, often yes: UVA passes through most window glass. [Fact to check, with a source.]
+
+Sources: [Source: a dermatology association’s sunscreen guidance]; [Source: a regulator’s page on SPF labelling]
+
+## The Skin Toolkit
+URL: https://skinoracle.ai/toolkit/
+
+### Can I mix these?
+Most skin-care ingredients are fine together; a few strong actives are better at different times of day or on different nights, because together they irritate more and each does less. The usual splits: vitamin C in the morning and retinoids at night; retinoids and exfoliating acids on different nights; sunscreen every morning with any of them.
+
+Q: Can I use retinol and vitamin C together?
+A: Yes, just not at the same time. They work best at different times of day: vitamin C in the morning, under your sunscreen, and retinol in the evening. Used together they can be harsher on skin and each works less well.
+
+Q: Can I use niacinamide with vitamin C?
+A: For most people they're fine together. If your skin feels irritated or flushed, split them: vitamin C in the morning and niacinamide at night, or alternate mornings.
+
+Q: Can I use AHA and BHA together?
+A: Usually best on different days. Glycolic and salicylic acid both exfoliate, and together they can over-exfoliate, leaving skin dry and irritated. Alternate them, or use one regularly and the other only now and then.
+
+### Cost per use
+Cost per use is the price divided by the number of uses in the pack. A $48, 30 ml serum used a few drops at a time holds about 100 uses, so each use costs about 48 cents, and a product you skip costs more per use than one you love and use every night.
+
+Q: How do I work out the cost per use of a skin-care product?
+A: Divide the size by the amount you use each time to get the number of uses, then divide the price by that number. The tool does it for you.
+
+Q: Is a more expensive product better value?
+A: Not by itself. What’s inside, how much you need and how often you really use it decide the value, not the price on the box.
+
+### Ingredient decoder
+Ingredient lists run from the most to the least, down to about 1%; after that they can be in any order. So the first five or so ingredients make up most of the product, and the actives you paid for are worth finding in that list.
+
+Q: How do I read a skin-care ingredient list?
+A: Start at the top: the first few ingredients are most of the formula. Water (aqua) is usually first. Look for the active you wanted and see roughly where it sits.
+
+Q: Is fragrance bad for skin?
+A: Not for everyone, but scent is one of the most common reasons sensitive skin reacts. If your skin is easily upset, fragrance-free is a good place to start.
+
+### Is it still good?
+The little open-jar symbol on a pack, with a number like 12M, is the “period after opening”: how many months a product stays at its best once it’s opened. Count from the day you opened it, and replace it sooner if the smell, colour or texture changes.
+
+Q: What does the open-jar symbol on skin care mean?
+A: It’s the period after opening: the number of months a product is at its best once opened, like 12M for 12 months.
+
+Q: How do I know if skin care has gone off?
+A: A changed smell, colour or texture is the sign. Replace it then, whatever the date says.
+
+### Price engine
+The price engine finds the five lowest prices for a product, sorted by price per ml (or per gram) first, then by the total price, so a bigger bottle that costs less per use comes first. Prices come from the retailers’ own official sources, each with the time it was checked, and are never more than a day old.
+
+Q: How are the prices sorted?
+A: By price only: the lowest price per ml (or per gram) first, then the lowest total price. Whether a retailer pays us a commission never changes the order.
+
+Q: Does SkinOracle earn money from these links?
+A: Some offer links may earn us a commission. We say so next to every price list, and it never changes what we show: we survey prices to get you the best deal, not because we’re paid to.
+
+Q: Are the prices always right?
+A: They are checked within the last 24 hours and show when. Prices can change; the retailer’s site price applies.
+
+### Build a starter routine
+A good starter routine is short: cleanser, moisturizer and sunscreen in the morning; cleanser and moisturizer at night. Add one active at a time, matched to what matters most to you, once the basics are a habit.
+
+Q: What is the simplest good skin-care routine?
+A: Morning: cleanser, moisturizer, sunscreen. Evening: cleanser and moisturizer. Add one active at a time once that is a habit.
+
+Q: How many skin-care products do I need?
+A: Fewer than most people think. Three to five, used every day, beats a full shelf used now and then.
+
+### Myth or fact?
+Many skin-care “rules” are marketing, not science. Oily skin still needs moisturizer, tingling usually means irritation rather than results, and “natural” doesn’t always mean gentle.
+
+Q: Do I need sunscreen on cloudy days?
+A: Yes. Much of the sun’s UV gets through clouds.
+
+Q: Does tingling mean a skin-care product is working?
+A: No. Tingling often means irritation, not results.
+
+### Can I mix these? Every pair
+
+- Retinol / retinoids with Vitamin C: Vitamin C in the morning, retinoid at night. Yes, just not at the same time. They work best at different times of day: vitamin C in the morning, under your sunscreen, and retinol in the evening. Used together they can be harsher on skin and each works less well.
+- Retinol / retinoids with AHA (glycolic, lactic): Better on different nights. Keep them in separate routines. Retinol and acids like glycolic or lactic both speed up how skin renews, and together they can be very drying and irritating. Use them on different evenings: start the second one once a week, then build up to 2 or 3 nights. If skin gets dry or red, use them less.
+- Retinol / retinoids with BHA (salicylic): Better apart: one in the morning, one at night. Better apart. Retinol and salicylic acid together can over-dry and irritate skin, and very dry skin can end up oilier. Use salicylic acid in the morning and retinol at night, or on different evenings.
+- Retinol / retinoids with Benzoyl peroxide: Use them at different times. Use them at different times. Benzoyl peroxide can break down many retinoids, so used together the retinoid does less. A good split: benzoyl peroxide in the morning (a wash works well) and your retinoid at night.
+- Retinol / retinoids with Niacinamide: Fine together. These usually work well side by side. Layer them thinnest to thickest.
+- Retinol / retinoids with Hyaluronic acid: Fine together. These usually work well side by side. Layer them thinnest to thickest.
+- Retinol / retinoids with Sunscreen: A must-have pair. Retinoids make skin more sensitive to the sun, so sunscreen every morning matters even more.
+- Vitamin C with AHA (glycolic, lactic): Better apart. Better apart. Vitamin C and exfoliating acids are all acidic, and layered together they can dry out and irritate skin. Keep vitamin C for the morning and your AHA for the evening.
+- Vitamin C with BHA (salicylic): Better apart. Better apart. Salicylic acid and vitamin C layered together can be drying and irritating. Keep vitamin C for the morning and salicylic acid for the evening.
+- Vitamin C with Benzoyl peroxide: Keep them apart. Benzoyl peroxide can oxidise vitamin C, so it does less. Use them at different times of day.
+- Vitamin C with Niacinamide: Fine together for most people. For most people they're fine together. If your skin feels irritated or flushed, split them: vitamin C in the morning and niacinamide at night, or alternate mornings.
+- Vitamin C with Hyaluronic acid: Fine together. These usually work well side by side. Layer them thinnest to thickest.
+- Vitamin C with Sunscreen: Fine together. These usually work well side by side. Layer them thinnest to thickest.
+- AHA (glycolic, lactic) with BHA (salicylic): Usually best on different days. Usually best on different days. Glycolic and salicylic acid both exfoliate, and together they can over-exfoliate, leaving skin dry and irritated. Alternate them, or use one regularly and the other only now and then.
+- AHA (glycolic, lactic) with Benzoyl peroxide: Usually better apart. Both can dry and irritate skin. If you use both, alternate them.
+- AHA (glycolic, lactic) with Niacinamide: Fine together. These usually work well side by side. Layer them thinnest to thickest.
+- AHA (glycolic, lactic) with Hyaluronic acid: Fine together. These usually work well side by side. Layer them thinnest to thickest.
+- AHA (glycolic, lactic) with Sunscreen: A must-have pair. Acids make skin more sensitive to the sun. Sunscreen the next morning, every time.
+- BHA (salicylic) with Benzoyl peroxide: Usually better apart. A drying pair: use them at different times.
+- BHA (salicylic) with Niacinamide: Fine together. These usually work well side by side. Layer them thinnest to thickest.
+- BHA (salicylic) with Hyaluronic acid: Fine together. These usually work well side by side. Layer them thinnest to thickest.
+- BHA (salicylic) with Sunscreen: A must-have pair. Freshly exfoliated skin needs sun protection the next day.
+- Benzoyl peroxide with Niacinamide: Fine together. These usually work well side by side. Layer them thinnest to thickest.
+- Benzoyl peroxide with Hyaluronic acid: Fine together. These usually work well side by side. Layer them thinnest to thickest.
+- Benzoyl peroxide with Sunscreen: Fine together. These usually work well side by side. Layer them thinnest to thickest.
+- Niacinamide with Hyaluronic acid: Fine together. These usually work well side by side. Layer them thinnest to thickest.
+- Niacinamide with Sunscreen: Fine together. These usually work well side by side. Layer them thinnest to thickest.
+- Hyaluronic acid with Sunscreen: Fine together. These usually work well side by side. Layer them thinnest to thickest.
+
+## Skin games: the lessons
+- Layer it right: Cleanser first, then thinnest to thickest (toner, serum, moisturizer), and sunscreen last in the morning.
+- The price check: Two products with the same key ingredients at about the same strength do about the same job, whatever the jar costs.
+- The routine meter: Most products need steady use, most nights, before they show anything. Consistency matters more than any price tag.
+
+## Price engine
+URL: https://skinoracle.ai/prices/
+The five lowest prices for a product from retailers’ official sources, sorted by price per ml (or per g) first, then total price; never by commission. Each price shows when it was checked (within 24 hours); prices can change and the retailer’s site price applies. Some offer links may earn SkinOracle a commission, always disclosed next to the prices.
+
+## Tips
+URL: https://skinoracle.ai/tips/
+- Thinnest to thickest: water-light first, rich cream last. Thin layers sink in first; heavier creams sit on top and help hold everything in.
+- Give a new product weeks, not days, before you judge it. Skin renews over about a month. Most products need steady use before they show anything.
+- Patch test something new before it goes on your whole face. A small spot along the jaw or behind the ear for a few days shows how your skin takes it.
+- Two strong actives on the same night? Usually one too many. Retinoids and exfoliating acids each do a lot. Together they often mean redness and peeling.
+- Moisturize while skin is still slightly damp. It helps hold in the water that’s already on your skin.
+- Sunscreen: two finger-lengths for face and neck. Most people use far less than the amount sunscreens are tested with, so they get less protection than the label says.
+- Outdoors all day? Reapply sunscreen every two hours. And after swimming or sweating. Morning sunscreen doesn’t last until evening.
+- Wash your face with lukewarm water, not hot. Hot water strips more of your skin’s own oils, and skin feels tighter afterwards.
+- Start one new product at a time. If your skin reacts, you’ll know which one it was.
+- Pat your face dry; don’t rub. Less friction is kinder to your skin’s barrier.
+- Your neck and the backs of your hands count too. They see as much sun as your face. Take your routine a little further down.
+- Wash pillowcases and makeup brushes often. They collect oil, makeup and bacteria that end up back on your skin.
+
+## Ingredients
+- Niacinamide (ACTIVE): Vitamin B3. Helps with the look of uneven tone, shine and pores, and supports the barrier. How to use it: Easy to fit in: morning or evening, under moisturizer. Pairs well with: Hyaluronic acid, ceramides, sunscreen. Keep apart from: Usually fine with most things; if skin flushes, use it away from vitamin C.
+- Hyaluronic acid (HYDRATOR): Holds water in the skin, so it looks plumper and feels less tight. How to use it: Apply to slightly damp skin, then seal it in with moisturizer. Pairs well with: Almost everything. Keep apart from: Nothing in particular.
+- Ceramides (BARRIER): Fats your skin makes itself; they’re the “mortar” of your skin barrier. How to use it: Look for them in moisturizers, especially when skin feels dry or tight. Pairs well with: Cholesterol, fatty acids, retinoids (they make retinoids easier to live with). Keep apart from: Nothing in particular.
+- Retinol (ACTIVE): A retinoid: speeds up how skin renews, for smoother-looking skin over months. How to use it: Evenings only, a pea-sized amount, two nights a week at first. Sunscreen every morning. Pairs well with: Moisturizer, sunscreen (every morning). Keep apart from: Exfoliating acids, benzoyl peroxide, vitamin C at the same time.
+- Vitamin C (ACTIVE): An antioxidant for brighter-looking skin and extra help alongside sunscreen. How to use it: Mornings, under sunscreen. Keep it closed and away from light: it goes off. Pairs well with: Sunscreen, vitamin E, ferulic acid. Keep apart from: Retinoids and exfoliating acids at the same time.
+- Salicylic acid (BHA) (ACTIVE): An oil-loving acid that clears inside pores. How to use it: A few nights a week to start. Skin that turns dry or red needs less. Pairs well with: Niacinamide, moisturizer. Keep apart from: Retinoids and other acids on the same night.
+- Glycolic acid (AHA) (ACTIVE): Smooths the surface by loosening dead skin cells. How to use it: Evenings, once or twice a week at first. Sunscreen the next morning. Pairs well with: Hyaluronic acid, moisturizer. Keep apart from: Retinoids and other acids on the same night.
+- Azelaic acid (ACTIVE): Often used for redness, breakouts and uneven tone; usually gentle. How to use it: Once a day to start, morning or evening. Pairs well with: Niacinamide, moisturizer. Keep apart from: Go slowly next to other strong actives.
+- Panthenol (SOOTHER): Vitamin B5: calming and hydrating. How to use it: A kind ingredient for days when skin feels upset. Pairs well with: Almost everything. Keep apart from: Nothing in particular.
+- Zinc oxide (SUN FILTER): A mineral sunscreen filter that protects against UVA and UVB. How to use it: Use enough and reapply; mineral sunscreens can leave a white cast, tinted ones less so. Pairs well with: Everything in a morning routine. Keep apart from: Nothing in particular.
+- Squalane (EMOLLIENT): A light, stable oil that softens skin and keeps water in. How to use it: A few drops last in the evening, or mixed into moisturizer. Pairs well with: Retinoids, hyaluronic acid. Keep apart from: Nothing in particular.
+- Centella asiatica (cica) (SOOTHER): A plant extract loved for calm, comfortable skin. How to use it: Good in the evening after a long day or a strong active. Pairs well with: Ceramides, panthenol. Keep apart from: Nothing in particular.
+
+## Product recalls
+Official sources only. Latest: https://skinoracle.ai/recalls/

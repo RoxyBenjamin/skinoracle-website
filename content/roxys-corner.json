@@ -1,0 +1,215 @@
+{
+  "_about": "V4 phase G (founder direction, Roxy Benjamin, 7 Nov 2026): Roxy's Corner. One file for the iPhone app (bundled; ios/SkinOracle/Features/RoxysCorner/RoxysCornerView.swift reads it) and, once published, the copy at https://skinoracle.ai/content/roxys-corner.json that the app fetches so Roxy can change it weekly without a new app. STATUS draft: the intro, routine and picks come from the 7 Nov 2026 redesign mockup and Roxy's shelf (photographed 5 Nov 2026); Roxy confirms or replaces them (the app shows a 'draft' line until status is 'final'). Each product has `category` (ProductCategory raw value) and `actives` (key ingredient words: ActiveClass raw values such as vitaminC are used for matching in 'Try Roxy's routine with my shelf'; other words such as centella are kept for later). Holy grails may use category 'device' (never matched). Copy rules apply (scripts/copy-lint.py).",
+  "_audit": "SG-032 (ChatGPT audit, decided 8 Nov 2026): notes describe how Roxy uses a product, never a result. RETIRED notes: 'Calms my flush', 'For post-breakout marks', 'Dark circles', 'Calming', 'Light, calming, works under anything.', 'Fragrance-free rescue cream.', 'Tones down pink on a red day.' Still a draft until Roxy approves it.",
+  "status": "draft",
+  "updated": "2026-11-07",
+  "title": "What I'm actually using",
+  "intro": "I built SkinOracle because I own 160-something products and still stood in the bathroom every morning with no idea what to put on my face. Flushed cheeks, reactive skin, a K-beauty habit. This is my real shelf, updated every week.",
+  "tags": [
+    "Reactive, flushes easily",
+    "K-beauty"
+  ],
+  "morning": [
+    {
+      "brand": "Baegayul",
+      "name": "Moisture Balancing Toner",
+      "note": "Patted in on damp skin",
+      "category": "toner",
+      "actives": []
+    },
+    {
+      "brand": "Mixsoon",
+      "name": "Soondy Centella Asiatica Essence",
+      "note": "On flushed days",
+      "category": "essence",
+      "actives": [
+        "centella"
+      ]
+    },
+    {
+      "brand": "Mixsoon",
+      "name": "Glacier Water Hyaluronic Acid Serum",
+      "note": "Big bottle, zero fuss",
+      "category": "serum",
+      "actives": [
+        "hyaluronicAcid"
+      ]
+    },
+    {
+      "brand": "Vichy",
+      "name": "LiftActiv 16% Pure Vitamin C",
+      "note": "Every other morning",
+      "category": "serum",
+      "actives": [
+        "vitaminC"
+      ]
+    },
+    {
+      "brand": "Nano Recipe",
+      "name": "Tranexamic Acid 10%",
+      "note": "I use it on post-breakout marks",
+      "category": "serum",
+      "actives": [
+        "tranexamicAcid"
+      ]
+    },
+    {
+      "brand": "Mary&May",
+      "name": "Tranexamic Acid + Glutathione Eye Cream",
+      "note": "Under my eyes",
+      "category": "eyeCream",
+      "actives": []
+    },
+    {
+      "brand": "Baegayul",
+      "name": "Moisture Balancing Cream",
+      "note": "Thin layer",
+      "category": "moisturizer",
+      "actives": []
+    },
+    {
+      "brand": "La Roche-Posay",
+      "name": "Cicaplast Baume B5 UV SPF 50",
+      "note": "My sunscreen",
+      "category": "spf",
+      "actives": []
+    }
+  ],
+  "night": [
+    {
+      "brand": "Mixsoon",
+      "name": "Centella Cleansing Water",
+      "note": "Takes off SPF gently",
+      "category": "cleanser",
+      "actives": []
+    },
+    {
+      "brand": "Asis-Tobe",
+      "name": "Forest Relaxing Toner",
+      "note": "On red evenings",
+      "category": "toner",
+      "actives": []
+    },
+    {
+      "brand": "Mixsoon",
+      "name": "Soondy Centella Asiatica Essence",
+      "note": "Again at night",
+      "category": "essence",
+      "actives": [
+        "centella"
+      ]
+    },
+    {
+      "brand": "Kate Somerville",
+      "name": "DeliKate Recovery Serum",
+      "note": "On sensitive evenings",
+      "category": "serum",
+      "actives": []
+    },
+    {
+      "brand": "Rovectin",
+      "name": "Barrier Repair Ultra Cream",
+      "note": "Fragrance-free",
+      "category": "moisturizer",
+      "actives": []
+    }
+  ],
+  "holyGrails": [
+    {
+      "brand": "Medicube",
+      "name": "AGE-R Booster Pro",
+      "note": "Booster mode with my serums, most nights.",
+      "category": "device",
+      "actives": []
+    },
+    {
+      "brand": "Nano Recipe",
+      "name": "Madecassoside 10,000ppm",
+      "note": "The first thing I grab on a red day.",
+      "category": "serum",
+      "actives": [
+        "centella"
+      ]
+    },
+    {
+      "brand": "Mixsoon",
+      "name": "Soondy Centella Essence",
+      "note": "Light; I wear it under everything.",
+      "category": "essence",
+      "actives": [
+        "centella"
+      ]
+    },
+    {
+      "brand": "Rovectin",
+      "name": "Barrier Repair Ultra Cream",
+      "note": "Fragrance-free; my red-day cream.",
+      "category": "moisturizer",
+      "actives": []
+    },
+    {
+      "brand": "Dr.Jart+",
+      "name": "Cicapair SPF 30",
+      "note": "My sunscreen on a red day.",
+      "category": "spf",
+      "actives": []
+    },
+    {
+      "brand": "La Mer",
+      "name": "The Concentrate",
+      "note": "Richest pick for a red day.",
+      "category": "serum",
+      "actives": []
+    }
+  ],
+  "redDayKit": [
+    {
+      "brand": "Asis-Tobe",
+      "name": "Forest Relaxing Toner",
+      "note": "Patted in",
+      "category": "toner",
+      "actives": []
+    },
+    {
+      "brand": "Medicube",
+      "name": "Exosome Cica Calming Pad",
+      "note": "On the pinkest spot",
+      "category": "toner",
+      "actives": [
+        "centella"
+      ]
+    },
+    {
+      "brand": "Mixsoon",
+      "name": "Centella Asiatica Essence",
+      "note": "",
+      "category": "essence",
+      "actives": [
+        "centella"
+      ]
+    },
+    {
+      "brand": "Kate Somerville",
+      "name": "DeliKate Recovery Serum",
+      "note": "",
+      "category": "serum",
+      "actives": []
+    },
+    {
+      "brand": "Rovectin",
+      "name": "Barrier Repair Ultra Cream",
+      "note": "",
+      "category": "moisturizer",
+      "actives": []
+    },
+    {
+      "brand": "Dr.Jart+",
+      "name": "Cicapair SPF",
+      "note": "Mornings",
+      "category": "spf",
+      "actives": []
+    }
+  ],
+  "honestTakes": [],
+  "testing": []
+}

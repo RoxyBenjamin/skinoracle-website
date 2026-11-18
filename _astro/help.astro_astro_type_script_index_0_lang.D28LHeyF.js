@@ -1,0 +1,1 @@
+import{o as e,s as t}from"./public-api.B3-FCWN_.js";import{t as n}from"./turnstile-load.BP7ns5Wn.js";import{t as r}from"./feedback-form.DAmYxecY.js";n();var i=document.querySelector(`form[data-feedback="public"]`);if(i){let n=e(i);r(i,{demo:!n.base,send:async e=>(await t(n)).sendSupport(e)})}

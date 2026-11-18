@@ -1,0 +1,139 @@
+<!doctype html>
+<!--
+  SkinOracle™ Product Pricer — the app itself (v1.0.0)
+  URL: https://skinoracle.ai/pricer/app/   (the Home-Screen icon opens this page)
+  Owner, founder, author, designer and architect: Roxanne Benjamin (also Roxy Benjamin; maiden name Roxanne Haberland). All hers, no one else's. © 2026 Roxanne Benjamin. See OWNERSHIP.md.
+
+  Screens (only one is visible at a time, switched by app.js → show()):
+    #home     "Scan a product" + My scans gallery
+    #capture  guided 3-photo capture (front required, ingredients + barcode optional)
+    #working  progress while we cut out, read the barcode and look up prices
+    #result   product name, 3 prices, cut-out pictures, "Save to my phone"
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self' blob: https://afmbniyyipzcpgwzhgve.supabase.co; worker-src 'self' blob:; manifest-src 'self'; media-src 'self' blob:; object-src 'none'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests">
+  <meta name="referrer" content="no-referrer">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Product Pricer · SkinOracle™</title>
+  <meta name="author" content="Roxanne Benjamin">
+  <meta name="theme-color" content="#faf6ef">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="SO Pricer">
+  <meta name="robots" content="noindex">
+  <link rel="apple-touch-icon" href="/pricer/icons/apple-touch-icon.png">
+  <link rel="icon" href="/pricer/icons/icon-192.png">
+  <link rel="manifest" href="/pricer/manifest.webmanifest">
+  <link rel="stylesheet" href="/pricer/assets/styles.css">
+  <script src="/pricer/assets/guard.js"></script>
+  <script type="module" src="/pricer/app/app.js"></script>
+</head>
+<body>
+
+<main class="wrap narrow">
+
+  <header class="app-head">
+    <img src="/pricer/icons/icon-192.png" alt="">
+    <div>
+      <h1>Product Pricer</h1>
+      <div class="muted">by SkinOracle<span class="tm">™</span></div>
+    </div>
+  </header>
+
+  <!-- ============ HOME ============ -->
+  <section id="home">
+    <div class="card dark">
+      <span class="eyebrow">New scan</span>
+      <h2>Snap any product</h2>
+      <p>Front label, ingredients and barcode. We'll cut it out, name it and find 3 current prices.</p>
+      <button class="btn champagne block" id="start" type="button">Scan a product</button>
+      <p class="muted small gap-top" id="model-status"></p>
+    </div>
+    <div class="card">
+      <h3>My scans</h3>
+      <div class="gallery" id="gallery"></div>
+      <p class="muted small" id="gallery-empty">Nothing yet. Your scans appear here and stay on this phone.</p>
+    </div>
+  </section>
+
+  <!-- ============ CAPTURE ============ -->
+  <section id="capture" class="hidden">
+    <div class="card">
+      <span class="eyebrow" id="cap-step">Photo 1 of 3</span>
+      <h2 id="cap-title">Front label</h2>
+      <p id="cap-help">Fill the frame with the front of the product. Good light, no glare.</p>
+      <div class="shots">
+        <div class="shot" data-kind="front"><span>Front<br>label</span></div>
+        <div class="shot" data-kind="ingredients"><span>Ingredients</span></div>
+        <div class="shot" data-kind="barcode"><span>Barcode<br>or QR</span></div>
+      </div>
+      <div class="row">
+        <button class="btn" id="take" type="button">Take photo</button>
+        <button class="btn secondary" id="skip" type="button">Skip</button>
+      </div>
+      <label class="field gap-top" for="bought-at">Where did you buy it? <span class="muted small">(optional)</span></label>
+      <select id="bought-at" class="select">
+        <option value="">Not bought yet, or I'd rather not say</option>
+      </select>
+      <p class="muted small gap-top">Your phone may ask to share your location. SkinOracle keeps only the area (about 10 km
+        across), never the exact spot, and never who you are.</p>
+      <div class="row gap-top">
+        <button class="btn champagne" id="finish" type="button" disabled>Find prices</button>
+      </div>
+      <p class="muted small gap-top">
+        <a href="#" id="from-library">Use a photo from my library instead</a> ·
+        <a href="#" id="cancel">Cancel</a>
+      </p>
+      <!-- capture="environment" opens the rear camera directly; the second input opens the photo library -->
+      <input type="file" id="cam-input" accept="image/*" capture="environment" class="hidden">
+      <input type="file" id="lib-input" accept="image/*" class="hidden">
+    </div>
+  </section>
+
+  <!-- ============ WORKING ============ -->
+  <section id="working" class="hidden">
+    <div class="card center">
+      <div class="spinner" aria-hidden="true"></div>
+      <h2 id="work-title">Working on it…</h2>
+      <div class="progress"><i id="work-bar"></i></div>
+      <p class="muted" id="work-msg">Getting ready</p>
+    </div>
+  </section>
+
+  <!-- ============ RESULT ============ -->
+  <section id="result" class="hidden">
+    <div class="card">
+      <div class="row tight-row" id="res-pills"></div>
+      <h2 id="res-name">Product</h2>
+      <p class="muted" id="res-sub"></p>
+      <div class="shots" id="res-shots"></div>
+      <p class="muted small" id="res-cutnote"></p>
+      <button class="btn block" id="save" type="button">Save to my phone</button>
+      <p class="muted small gap-top" id="save-help"></p>
+    </div>
+    <div class="card">
+      <h3>Prices</h3>
+      <div id="res-prices"></div>
+      <button class="btn secondary block hidden gap-top" id="retry" type="button">Try prices again</button>
+      <p class="muted small gap-top" id="res-checked"></p>
+    </div>
+    <details class="card" id="res-ingredients-box">
+      <summary><b>Ingredients</b></summary>
+      <p class="small gap-top" id="res-ingredients"></p>
+    </details>
+    <div class="row">
+      <button class="btn" id="again" type="button">Scan another</button>
+      <button class="btn secondary" id="home-btn" type="button">My scans</button>
+    </div>
+    <p class="center gap-top-lg"><a href="#" class="small" id="delete-scan">Delete this scan from my phone</a></p>
+  </section>
+
+  <div class="toast hidden" id="toast" role="status" aria-live="polite"></div>
+  <footer class="foot">SkinOracle<span class="tm">™</span> Product Pricer · <span id="ver"></span> · © 2026 Roxanne Benjamin<br>
+    <a href="/pricer/">How to install &amp; use</a></footer>
+</main>
+</body>
+</html>

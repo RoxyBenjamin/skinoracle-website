@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/prices.DA1I1fPD.js","_astro/prices.aTZ0psYc.js"])))=>i.map(i=>d[i]);
+import{t as e}from"./preload-helper.DHhhL8Zf.js";import{t}from"./when-near.CzF2ED16.js";t(`[data-price-block], [data-price-game], [data-toolkit], form[data-compare-form]`,()=>e(()=>import(`./prices.DA1I1fPD.js`),__vite__mapDeps([0,1])));

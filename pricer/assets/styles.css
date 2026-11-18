@@ -1,0 +1,209 @@
+/* =============================================================================
+   SkinOracle™ Product Pricer — styles (pricer v1.0.0)
+   Owner, founder, author, designer and architect: Roxanne Benjamin (also Roxy Benjamin; maiden name Roxanne
+   Haberland). All hers, no one else's. © 2026 Roxanne Benjamin. See OWNERSHIP.md.
+
+   WHY: Founder direction (Roxanne Haberland), 14 Nov 2026: "we need the pricer to be the same TAN beige color palette".
+   HOW IT CONNECTS: every value in :root below is copied from the LIVE skinoracle.ai website's design tokens
+     (web/src styles, published as _astro/Base.*.css on 14 Nov 2026): cream page, "frost" card wash, espresso ink,
+     champagne + bronze accents, Cormorant Garamond headings, Jost text, feathered cards (no hard edges).
+   HOW TO CHANGE SAFELY: if the website's palette changes, copy the new token values here (same names). Don't add new
+     colours here that the website doesn't have. Fonts are self-hosted in this folder (assets/*.woff2, SIL OFL), so the
+     strict security policy (no outside servers) keeps working.
+   ============================================================================= */
+
+@font-face { font-family: "Cormorant Garamond"; src: url("./cormorant-garamond.woff2") format("woff2"); font-weight: 300 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "Cormorant Garamond"; src: url("./cormorant-garamond-italic.woff2") format("woff2"); font-weight: 300 700; font-style: italic; font-display: swap; }
+@font-face { font-family: "Jost"; src: url("./jost.woff2") format("woff2"); font-weight: 100 900; font-display: swap; }
+
+:root {
+  /* ---- the website's palette (copied, not invented) ---- */
+  --cream: #faf6ef;          /* page */
+  --frost-top: #fbf8f3;      /* card wash, top */
+  --frost-bottom: #f1e6d6;   /* card wash, bottom */
+  --frost: linear-gradient(180deg, var(--frost-top), var(--frost-bottom));
+  --paper-top: #fdfbf7;
+  --sand: #e9e1d3;           /* chips */
+  --raised: #f3ede3;
+  --hairline: #e2d9c8;       /* thin lines */
+  --outline: #d8ccb4;        /* outlined buttons and fields */
+  --ink: #141218;            /* text and the main button */
+  --espresso: #17120f;       /* dark accents */
+  --champagne: #d9b07a;      /* the star */
+  --bronze: #a8743f;
+  --bronze-text: #7a5230;    /* small capitals, links */
+  --text-muted: #6b6272;
+  --text-faint: #8a8090;
+  --warn: #9e4a3f;
+  --warn-fill: #ebd3b5;
+  --good-fill: #dce4cf;
+  --good-text: #2f6b1f;
+  --warn-text: #8a4b00;
+  --font-head: "Cormorant Garamond", "Iowan Old Style", Georgia, serif;
+  --font-body: "Jost", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --radius: 24px;
+  --radius-cell: 12px;
+  --card-bleed: 18px;
+  --card-feather: 44px;
+  --ease: cubic-bezier(.2, .7, .2, 1);
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  color-scheme: light;
+}
+
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; background: var(--cream); }
+html, body { margin: 0; min-height: 100%; }
+/* Same soft, painted background as the website body: three faint washes of frost and sand. */
+body {
+  background-color: var(--cream);
+  background-image:
+    radial-gradient(1200px 900px at 12% 8%, color-mix(in srgb, var(--frost-bottom) 45%, transparent), transparent 70%),
+    radial-gradient(1100px 1000px at 92% 45%, color-mix(in srgb, var(--frost-bottom) 38%, transparent), transparent 70%),
+    radial-gradient(1300px 900px at 30% 95%, color-mix(in srgb, var(--sand) 32%, transparent), transparent 70%);
+  background-attachment: fixed;
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-feature-settings: "ss01";
+  font-size: 1.0625rem; line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+h1, h2, h3 { font-family: var(--font-head); font-weight: 600; letter-spacing: -.01em; line-height: 1.08; margin: 0 0 .45em; text-wrap: balance; }
+h1 { font-size: clamp(2.2rem, 7vw, 3.4rem); }
+h2 { font-size: clamp(1.7rem, 5vw, 2.3rem); }
+h3 { font-size: 1.45rem; }
+em, .italic { font-family: var(--font-head); font-style: italic; }
+p { margin: 0 0 .8em; color: var(--text-muted); }
+a { color: var(--bronze-text); }
+.tm { font-size: .42em; vertical-align: super; font-weight: 600; }
+.muted { color: var(--text-muted); font-size: .95rem; }
+.small { font-size: .875rem; }
+.hidden { display: none !important; }
+
+.wrap { max-width: 1080px; margin: 0 auto; padding: calc(24px + var(--safe-top)) 22px calc(44px + var(--safe-bottom)); }
+.wrap.narrow { max-width: 640px; }
+
+/* The small capitals above a section ("COMING SOON · IPHONE FIRST" on the website). */
+.eyebrow { font-family: var(--font-body); letter-spacing: .22em; text-transform: uppercase; color: var(--bronze-text);
+  font-size: .6875rem; font-weight: 500; display: inline-flex; align-items: center; gap: .6em; margin: 0 0 .9rem; }
+.eyebrow::before { content: ""; width: 9px; height: 9px; background: var(--champagne);
+  clip-path: polygon(50% 0, 61% 39%, 100% 50%, 61% 61%, 50% 100%, 39% 61%, 0 50%, 39% 39%); }
+
+/* Cards: the website's feathered "frost" wash. The colour fades out over 44px at every edge, so cards melt into the
+   page with no hard edge ("like it was all one painting"). */
+.card { position: relative; isolation: isolate; border-radius: var(--radius); padding: 26px 24px; margin-bottom: 22px; }
+.card::before {
+  content: ""; position: absolute; inset: calc(-1 * var(--card-bleed)); z-index: -1; pointer-events: none;
+  border-radius: calc(var(--radius) + var(--card-bleed)); background: var(--frost);
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 var(--card-feather), #000 calc(100% - var(--card-feather)), transparent),
+                      linear-gradient(180deg, transparent, #000 var(--card-feather), #000 calc(100% - var(--card-feather)), transparent);
+  -webkit-mask-composite: source-in;
+  mask-image: linear-gradient(90deg, transparent, #000 var(--card-feather), #000 calc(100% - var(--card-feather)), transparent),
+              linear-gradient(180deg, transparent, #000 var(--card-feather), #000 calc(100% - var(--card-feather)), transparent);
+  mask-composite: intersect;
+}
+/* The website's dark espresso card (used once, for the big "Scan a product" moment). */
+.card.dark { background-color: var(--espresso);
+  background-image: radial-gradient(circle at top right, #3a2a20 0%, #1f1813 45%, #151110 100%); color: var(--cream);
+  box-shadow: 0 0 60px 18px color-mix(in srgb, var(--espresso) 22%, transparent), 0 0 120px 40px color-mix(in srgb, var(--espresso) 10%, transparent); }
+.card.dark::before { content: none; }
+.card.dark h1, .card.dark h2, .card.dark h3 { color: var(--cream); }
+.card.dark p, .card.dark .muted { color: #b9ab9d; }
+.card.dark .eyebrow { color: var(--champagne); }
+
+/* Buttons: the website's ink pill with cream letters; secondary = outlined. */
+.btn { appearance: none; border: 0; cursor: pointer; text-decoration: none; white-space: nowrap;
+  display: inline-flex; align-items: center; justify-content: center; gap: .6em;
+  min-height: 54px; padding: 0 1.55rem; border-radius: 999px;
+  font-family: var(--font-body); font-size: .95rem; font-weight: 500; letter-spacing: .07em;
+  color: var(--cream); background: var(--ink);
+  transition: transform .25s var(--ease), background .2s; }
+.btn:hover { transform: translateY(-1px); }
+.btn:active { transform: scale(.98); }
+.btn.secondary { color: var(--ink); background: transparent; border: 1px solid var(--outline); }
+.btn.champagne { color: var(--espresso); background: var(--champagne); }
+.card.dark .btn.secondary { color: var(--cream); border-color: #fff0e129; }
+.btn.block { width: 100%; }
+.btn[disabled] { opacity: .45; pointer-events: none; }
+.btn:focus-visible, a:focus-visible, button:focus-visible { outline: 2px solid var(--bronze); outline-offset: 3px; }
+.row { display: flex; gap: 12px; flex-wrap: wrap; }
+.row > .btn { flex: 1 1 160px; }
+
+/* Chips (the website's "Your shelf, explained" pills). */
+.pill { display: inline-flex; align-items: center; min-height: 32px; padding: 0 14px; border-radius: 999px;
+  background: var(--raised); border: 1px solid var(--hairline); color: var(--bronze-text); font-size: .82rem; font-weight: 500; }
+.pill.good { background: var(--good-fill); color: var(--good-text); border-color: transparent; }
+.pill.warn { background: var(--warn-fill); color: var(--warn-text); border-color: transparent; }
+
+/* Numbered steps on the install page: champagne coins with ink numbers. */
+.steps { counter-reset: s; list-style: none; padding: 0; margin: 0; }
+.steps li { counter-increment: s; position: relative; padding: 5px 0 16px 50px; color: var(--text-muted); }
+.steps li::before { content: counter(s); position: absolute; left: 0; top: 0; width: 34px; height: 34px; border-radius: 50%;
+  display: grid; place-items: center; font-family: var(--font-head); font-size: 1.15rem; font-weight: 600;
+  color: var(--espresso); background: radial-gradient(circle at 35% 30%, #f1d7b0, var(--champagne) 70%); }
+.steps b { color: var(--ink); font-weight: 500; }
+kbd { font-family: inherit; background: var(--raised); border: 1px solid var(--hairline); padding: 0 8px; border-radius: 8px; color: var(--ink); }
+.grid2 { display: grid; gap: 22px; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+
+/* ---------- App header (the SkinOracle "So" mark with its star) ---------- */
+.app-head { display: flex; align-items: center; gap: 14px; margin-bottom: 26px; }
+.app-head img { width: 48px; height: 48px; border-radius: 13px; }
+.app-head h1 { font-size: 1.9rem; margin: 0; }
+.app-head .muted { font-size: .78rem; letter-spacing: .22em; text-transform: uppercase; color: var(--bronze-text); }
+
+/* ---------- Capture + result ---------- */
+.shots { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 16px 0; }
+.shot { position: relative; aspect-ratio: 3/4; border-radius: 18px; overflow: hidden; cursor: pointer;
+  background: radial-gradient(circle at 50% 35%, #fff, var(--raised) 75%); border: 1px dashed var(--outline);
+  display: grid; place-items: center; text-align: center; font-size: .82rem; color: var(--text-faint); padding: 8px; }
+.shot img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; }
+.shot.done { border-style: solid; border-color: var(--hairline); background: #fff; }
+.shot .turn { position: absolute; right: 6px; bottom: 6px; z-index: 1; width: 40px; height: 40px; padding: 0; display: grid; place-items: center;
+  border: 1px solid var(--hairline); border-radius: 50%; background: #fffffff0; color: var(--ink); font-size: 1.15rem; line-height: 1; cursor: pointer; }
+.shot .turn:disabled { opacity: .5; }
+.shot .tag { position: absolute; left: 50%; top: 8px; transform: translateX(-50%); z-index: 1; min-height: 24px; font-size: .72rem; padding: 0 10px; }
+.card.dark .shot { background: #ffffff10; border-color: #fff0e129; color: #b9ab9d; }
+
+.progress { height: 6px; border-radius: 99px; background: var(--sand); overflow: hidden; margin: 16px 0 10px; }
+.progress > i { display: block; height: 100%; width: 0; border-radius: 99px; background: linear-gradient(90deg, var(--bronze), var(--champagne)); transition: width .4s var(--ease); }
+.spinner { width: 46px; height: 46px; margin: 6px auto 14px; background: var(--champagne);
+  clip-path: polygon(50% 0, 61% 39%, 100% 50%, 61% 61%, 50% 100%, 39% 61%, 0 50%, 39% 39%); animation: twinkle 1.6s var(--ease) infinite; }
+@keyframes twinkle { 50% { transform: rotate(45deg) scale(.8); opacity: .6; } }
+@media (prefers-reduced-motion: reduce) { .spinner { animation: none; } .btn { transition: none; } }
+
+.price { display: flex; align-items: center; gap: 14px; padding: 14px 2px; }
+.price + .price { background: linear-gradient(90deg, transparent, var(--hairline) 18%, var(--hairline) 82%, transparent) top / 100% 1px no-repeat; }
+.price .amt { font-family: var(--font-head); font-size: 1.8rem; font-weight: 600; min-width: 100px; color: var(--ink); }
+.price .store { flex: 1; min-width: 0; }
+.price .store b { display: block; font-weight: 500; }
+.price .store span { display: block; color: var(--text-faint); font-size: .82rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.price a.go { text-decoration: none; font-weight: 500; color: var(--bronze-text); white-space: nowrap; letter-spacing: .04em; }
+
+.gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 14px; }
+.g-item { appearance: none; border: 1px solid var(--hairline); font: inherit; color: inherit; text-align: left; cursor: pointer;
+  border-radius: 18px; padding: 10px; background: color-mix(in srgb, #fff 70%, transparent); }
+.g-item .thumb { aspect-ratio: 1; border-radius: 12px; display: grid; place-items: center; overflow: hidden; margin-bottom: 8px; background: #fff; }
+.g-item img { max-width: 100%; max-height: 100%; object-fit: contain; }
+.g-item b { display: block; font-size: .9rem; font-weight: 500; line-height: 1.3; }
+.g-item span { font-size: .78rem; color: var(--text-faint); }
+
+details.card summary { cursor: pointer; font-family: var(--font-head); font-size: 1.35rem; font-weight: 600; }
+.toast { position: fixed; left: 50%; bottom: calc(24px + var(--safe-bottom)); transform: translateX(-50%); z-index: 50;
+  background: var(--ink); color: var(--cream); padding: 14px 22px; border-radius: 999px; max-width: 90vw; font-size: .92rem;
+  box-shadow: 0 10px 30px #1412181a; }
+footer.foot { text-align: center; color: var(--text-faint); font-size: .8rem; margin-top: 30px; }
+footer.foot a { color: var(--bronze-text); }
+
+/* Small spacing helpers (the security policy blocks style="" attributes, so spacing lives here). */
+.gap-top { margin-top: 12px; }
+.gap-top-lg { margin-top: 18px; }
+.center { text-align: center; }
+.no-margin { margin: 0; }
+.tight-row { gap: 8px; margin-bottom: 10px; }
+
+/* "Where did you buy it?" (a fixed list, so nothing personal can be typed). */
+.field { display: block; font-weight: 500; color: var(--ink); margin-bottom: 6px; }
+.select { width: 100%; min-height: 50px; padding: 0 16px; border-radius: 999px; border: 1px solid var(--outline);
+  background: #fff; color: var(--ink); font: inherit; font-size: .95rem; appearance: none;
+  background-image: linear-gradient(45deg, transparent 50%, var(--bronze-text) 50%), linear-gradient(135deg, var(--bronze-text) 50%, transparent 50%);
+  background-position: calc(100% - 22px) 50%, calc(100% - 16px) 50%; background-size: 6px 6px; background-repeat: no-repeat; }

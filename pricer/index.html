@@ -1,0 +1,135 @@
+<!doctype html>
+<!--
+  SkinOracle™ Product Pricer — install / how-to page (pricer v1.0.0)   URL: https://skinoracle.ai/pricer/
+  Owner, founder, author, designer and architect: Roxanne Benjamin (also Roxy Benjamin; maiden name Roxanne Haberland).
+  All hers, no one else's. © 2026 Roxanne Benjamin. See OWNERSHIP.md.
+
+  WHY: Founder direction (Roxanne Haberland), 14 Nov 2026: "it lives in skinoracle.ai but it is installed as a stand
+    alone website... skinoracle.ai/pricer" · "it will have it's own launch icon for the iphone or android".
+  WHAT: explains the Pricer and how to put it on a phone's Home Screen. Opened FROM the installed icon, it goes straight
+    to the app (assets/landing.js). The app itself is app/index.html.
+  SECURITY: the website host (GitHub Pages) can't send security headers, so the policy is in the <meta> tag below:
+    only files from skinoracle.ai and calls to SkinOracle's own Supabase project; no inline scripts; no other servers.
+    assets/guard.js refuses to run inside another site's frame. See pricer/SECURITY.md.
+  HOW TO CHANGE SAFELY: keep every script in its own file (inline <script> and style="" are blocked by the policy);
+    if you add a new server, add it to connect-src here AND in app/index.html, and say why in SECURITY.md.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self' blob: https://afmbniyyipzcpgwzhgve.supabase.co; worker-src 'self' blob:; manifest-src 'self'; media-src 'self' blob:; object-src 'none'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests">
+  <meta name="referrer" content="no-referrer">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>SkinOracle™ Product Pricer: snap a product, see 3 prices</title>
+  <meta name="description" content="A free SkinOracle companion: photograph any product, get a clean cut-out picture and three current prices, saved on your phone.">
+  <meta name="author" content="Roxanne Benjamin">
+  <meta name="copyright" content="© 2026 Roxanne Benjamin">
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#faf6ef">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="SO Pricer">
+  <link rel="apple-touch-icon" href="/pricer/icons/apple-touch-icon.png">
+  <link rel="icon" href="/pricer/icons/icon-192.png">
+  <link rel="manifest" href="/pricer/manifest.webmanifest">
+  <link rel="stylesheet" href="/pricer/assets/styles.css">
+  <script src="/pricer/assets/guard.js"></script>
+  <script type="module" src="/pricer/assets/landing.js"></script>
+</head>
+<body>
+<main class="wrap">
+
+  <header class="app-head">
+    <img src="/pricer/icons/icon-192.png" alt="">
+    <div>
+      <h1>Product Pricer</h1>
+      <div class="muted">by SkinOracle<span class="tm">™</span></div>
+    </div>
+  </header>
+
+  <section class="card dark">
+    <span class="eyebrow">A free SkinOracle companion</span>
+    <h2>Snap a product. <em>See three prices.</em></h2>
+    <p>Take up to three photos of any product: the front label, the ingredients and the barcode or QR code.
+       Product Pricer lifts the product off the background, reads its name, finds three current prices online
+       and saves the clean pictures on your phone, named after the product.</p>
+    <div class="row">
+      <a class="btn champagne" id="open-app" href="/pricer/app/">Open Product Pricer</a>
+      <button class="btn secondary hidden" id="install-android" type="button">Install on this phone</button>
+    </div>
+    
+  </section>
+
+  <!-- Filled by assets/landing.js with the steps for THIS phone and THIS browser (founder, 14 Nov 2026: "the web app
+       should know if it's being called by safari or chrome... and use the appropriate install instructions"). -->
+  <section class="card" id="install-here">
+    <span class="eyebrow" id="install-here-label">Install on this phone</span>
+    <h2 id="install-here-title">Put Product Pricer on your Home Screen</h2>
+    <ol class="steps" id="install-here-steps"></ol>
+    <p class="muted small" id="install-here-note"></p>
+    <div class="row gap-top hidden" id="copy-row"><button class="btn secondary" id="copy-link" type="button">Copy the link</button></div>
+  </section>
+
+  <details class="card" id="other-steps">
+    <summary>Instructions for other phones and browsers</summary>
+  <div class="grid2 gap-top">
+    <section class="card" id="ios-steps">
+      <span class="eyebrow">iPhone</span>
+      <h2>Install on iPhone</h2>
+      <ol class="steps">
+        <li>Open <b>skinoracle.ai/pricer</b> in <b>Safari</b> (in Chrome on iPhone: the Share button <kbd>⬆︎</kbd> is at the top right, in the address bar).</li>
+        <li>Tap the <b>Share</b> button <kbd>⬆︎</kbd> (bottom of the screen, or top right on some iPhones).</li>
+        <li>Scroll down and tap <b>Add to Home Screen</b>. If you see <b>Open as Web App</b>, leave it switched on.</li>
+        <li>Tap <b>Add</b>. The <b>SO Pricer</b> icon appears on your Home Screen.</li>
+        <li>Open it from the icon. It runs full-screen, like an app. The first time, allow the <b>camera</b>.</li>
+      </ol>
+      <p class="muted small">Works on iPhone XS and newer with a current iOS.</p>
+    </section>
+
+    <section class="card" id="android-steps">
+      <span class="eyebrow">Android</span>
+      <h2>Install on Android</h2>
+      <ol class="steps">
+        <li>Open <b>skinoracle.ai/pricer</b> in <b>Chrome</b>.</li>
+        <li>Tap <b>Install on this phone</b> above, or open Chrome's <kbd>⋮</kbd> menu and tap <b>Install app</b>
+            (on some phones: <b>Add to Home screen</b> → <b>Install</b>).</li>
+        <li>Open <b>SO Pricer</b> from your Home screen or app drawer and allow the <b>camera</b>.</li>
+      </ol>
+      <p class="muted small">Samsung Internet: menu → <b>Add page to</b> → <b>Home screen</b>.</p>
+    </section>
+  </div>
+  </details>
+
+  <section class="card">
+    <span class="eyebrow">How it works</span>
+    <h2>Using Product Pricer</h2>
+    <ol class="steps">
+      <li>Tap <b>Scan a product</b>. Photograph the <b>front label</b>, then the <b>ingredients</b> and the
+          <b>barcode or QR code</b> (each optional: tap <b>Skip</b>).</li>
+      <li>Wait a few seconds while it lifts the product off the background, reads the barcode and finds prices.</li>
+      <li>You see the product's name and up to <b>three prices</b>, each with the store and a link.</li>
+      <li>Tap <b>Save to my phone</b>. On iPhone choose <b>Save Images</b> (Photos) or <b>Save to Files</b> and pick
+          (or create) a folder called <b>Skin Oracle</b>. Files remembers it next time.</li>
+      <li>Every scan also stays in Product Pricer under <b>My scans</b>.</li>
+    </ol>
+    <p class="muted small">Why one tap to save? Phones never let a website put files into your Photos or Files on its
+      own. You always choose.</p>
+  </section>
+
+  <section class="card">
+    <h3>For the best pictures</h3>
+    <p>Fill most of the frame with the product, in good light, without glare on shiny labels. A plain background gives
+       the cleanest cut-out. Hold the barcode flat and close.</p>
+    <h3>What SkinOracle keeps</h3>
+    <p class="small">Facts about the <b>product</b>: its cut-out pictures, name, ingredients, barcode and prices, the
+      store you bought it at if you say, and the <b>area</b> you scanned it in (about 10 km across, never the exact spot).
+      No name, email or account is needed or kept, and nothing links a scan to you. Please photograph products, not people. Prescription
+      medicines are never kept. Prices come from public store pages at the moment you scan and can change, so always
+      check the store's page. More in the <a href="/terms/">Terms of Use</a> and <a href="/privacy/">Privacy</a> pages.</p>
+  </section>
+
+  <footer class="foot">SkinOracle<span class="tm">™</span> Product Pricer · <span id="ver">v1.1.3</span> · © 2026 Roxanne Benjamin</footer>
+</main>
+</body>
+</html>

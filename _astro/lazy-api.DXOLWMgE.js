@@ -1,0 +1,1 @@
+function e(e){let t=null;return new Proxy({},{get:(n,r)=>r===`then`?void 0:async(...n)=>(await(t??=e()))[r](...n)})}export{e as t};

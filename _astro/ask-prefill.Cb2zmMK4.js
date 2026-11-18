@@ -1,0 +1,1 @@
+var e=null;function t(t,n,r=!1){let i=t.trim();e=i?{text:i,send:n,spoken:r}:null}function n(){let t=e;return e=null,t}export{n,t};

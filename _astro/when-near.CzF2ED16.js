@@ -1,0 +1,1 @@
+function e(e,t){let n=[...document.querySelectorAll(e)];if(!n.length)return;let r=!1,i=()=>{r||(r=!0,t())};if(!(`IntersectionObserver`in window)){i();return}let a=new IntersectionObserver(e=>{e.some(e=>e.isIntersecting)&&(a.disconnect(),i())},{rootMargin:`900px 0px`});n.forEach(e=>a.observe(e))}export{e as t};

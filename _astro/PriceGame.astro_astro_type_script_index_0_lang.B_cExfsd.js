@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/price-game.SkRPv8FK.js","_astro/prices.aTZ0psYc.js"])))=>i.map(i=>d[i]);
+import{t as e}from"./preload-helper.DHhhL8Zf.js";import{t}from"./when-near.CzF2ED16.js";t(`[data-price-game]`,()=>Promise.all([e(()=>import(`./price-game.SkRPv8FK.js`),__vite__mapDeps([0,1])),e(()=>import(`./compare-own.BHxs7fUy.js`),[])]));

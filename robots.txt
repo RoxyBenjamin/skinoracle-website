@@ -1,0 +1,3 @@
+# Coming soon: please do not crawl yet (scripts/publish-website.sh).
+User-agent: *
+Disallow: /

@@ -1,0 +1,18 @@
+{
+  "name": "SkinOracle Product Pricer",
+  "short_name": "SO Pricer",
+  "description": "Snap any product, get a clean cut-out photo and 3 current prices. A SkinOracle companion tool.",
+  "id": "/pricer/app/",
+  "start_url": "/pricer/app/",
+  "scope": "/pricer/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#faf6ef",
+  "theme_color": "#faf6ef",
+  "categories": ["lifestyle", "beauty", "utilities"],
+  "icons": [
+    { "src": "/pricer/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/pricer/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/pricer/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

@@ -1,0 +1,63 @@
+# Owner: Roxy Benjamin. © 2026 Roxy Benjamin. See OWNERSHIP.md.
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(self), microphone=(), geolocation=(), interest-cohort=()
+  X-Frame-Options: DENY
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://challenges.cloudflare.com; frame-src https://challenges.cloudflare.com; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data: blob:; media-src 'self' blob:; connect-src 'self' https://*.supabase.co; form-action 'self'; base-uri 'self'; frame-ancestors 'none'
+
+/_astro/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/app
+  ! Content-Security-Policy
+  ! Referrer-Policy
+  ! Permissions-Policy
+  Content-Security-Policy: default-src 'self'; script-src 'self' https://challenges.cloudflare.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://weatherkit.apple.com; media-src 'self' blob:; font-src 'self'; connect-src 'self' https://*.supabase.co; frame-src https://challenges.cloudflare.com; worker-src 'none'; object-src 'none'; form-action 'self'; base-uri 'none'; frame-ancestors 'none'
+  Cross-Origin-Opener-Policy: same-origin
+  Referrer-Policy: strict-origin
+  # 4.53.4 (audit W3): the member area may use the microphone for voice questions (the browser still asks first).
+  # 16 Nov 2026 (docs/V4-WEATHER-PLAN.md): the member area may ask for her approximate area, only after she taps "Use my
+  # local weather" (the browser still asks first); Apple Weather's required mark loads from weatherkit.apple.com.
+  Permissions-Policy: camera=(self), microphone=(self), geolocation=(self), interest-cohort=(), publickey-credentials-get=(self), publickey-credentials-create=(self)
+  X-Robots-Tag: noindex
+
+/app/*
+  ! Content-Security-Policy
+  ! Referrer-Policy
+  ! Permissions-Policy
+  Content-Security-Policy: default-src 'self'; script-src 'self' https://challenges.cloudflare.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://weatherkit.apple.com; media-src 'self' blob:; font-src 'self'; connect-src 'self' https://*.supabase.co; frame-src https://challenges.cloudflare.com; worker-src 'none'; object-src 'none'; form-action 'self'; base-uri 'none'; frame-ancestors 'none'
+  Cross-Origin-Opener-Policy: same-origin
+  Referrer-Policy: strict-origin
+  # 4.53.4 (audit W3): the member area may use the microphone for voice questions (the browser still asks first).
+  # 16 Nov 2026 (docs/V4-WEATHER-PLAN.md): the member area may ask for her approximate area, only after she taps "Use my
+  # local weather" (the browser still asks first); Apple Weather's required mark loads from weatherkit.apple.com.
+  Permissions-Policy: camera=(self), microphone=(self), geolocation=(self), interest-cohort=(), publickey-credentials-get=(self), publickey-credentials-create=(self)
+  X-Robots-Tag: noindex
+
+# Roxy's Studio (/queen, the website admin page; founder direction (Roxy Benjamin), 13 Nov 2026: "skinoracle.ai/queen";
+# RETIRED address /studio): the same strict policy as the member area, and never indexed or followed. It is deliberately
+# NOT in robots.txt or the sitemap (that would advertise it); the protection is the password + texted code + roles.
+/queen
+  ! Content-Security-Policy
+  ! Referrer-Policy
+  ! Permissions-Policy
+  Content-Security-Policy: default-src 'self'; script-src 'self' https://challenges.cloudflare.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; media-src 'self' blob:; font-src 'self'; connect-src 'self' https://*.supabase.co; frame-src https://challenges.cloudflare.com; worker-src 'none'; object-src 'none'; form-action 'self'; base-uri 'none'; frame-ancestors 'none'
+  Cross-Origin-Opener-Policy: same-origin
+  Referrer-Policy: strict-origin
+  Permissions-Policy: camera=(self), microphone=(), geolocation=(), interest-cohort=(), publickey-credentials-get=(self), publickey-credentials-create=(self)
+  X-Robots-Tag: noindex, nofollow
+
+/queen/*
+  ! Content-Security-Policy
+  ! Referrer-Policy
+  ! Permissions-Policy
+  Content-Security-Policy: default-src 'self'; script-src 'self' https://challenges.cloudflare.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; media-src 'self' blob:; font-src 'self'; connect-src 'self' https://*.supabase.co; frame-src https://challenges.cloudflare.com; worker-src 'none'; object-src 'none'; form-action 'self'; base-uri 'none'; frame-ancestors 'none'
+  Cross-Origin-Opener-Policy: same-origin
+  Referrer-Policy: strict-origin
+  Permissions-Policy: camera=(self), microphone=(), geolocation=(), interest-cohort=(), publickey-credentials-get=(self), publickey-credentials-create=(self)
+  X-Robots-Tag: noindex, nofollow
+
+/.well-known/apple-app-site-association
+  Content-Type: application/json
+  Cache-Control: public, max-age=3600

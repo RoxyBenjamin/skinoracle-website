@@ -1,0 +1,45 @@
+# SkinOracle
+
+> SkinOracle is an independent, unbiased skin-care guide and an iPhone app (coming soon; in beta with 100 testers), founded by Roxy Benjamin. It helps people use the products they already own well: what to mix, in what order, how much, and how often. Expensive is not the same as effective; how you use a product and sticking to a routine matter most.
+
+Editorial policy: education, not medical advice; SkinOracle never diagnoses. No sponsored content and no paid placements. Price checks show the top 5 offers sorted by price only (per ml, then total), never by commission; some offer links may earn SkinOracle a commission, and every price block says so. Science pages list their sources and are reviewed by a dermatologist, named on the page with the review date. News and recalls come from trusted and official sources, summarised in our own words with the original linked.
+
+## Start here
+
+- [SkinOracle: great skin isn’t bought. It’s used well.](https://skinoracle.ai/): Independent, unbiased skin care for everyone: free tools to check what you can mix, what a product really costs per use and what the ingredients mean. The SkinOracle iPhone app is coming soon; apply to be one of 100 beta testers.
+- [Apply to be one of 100 beta testers](https://skinoracle.ai/beta/): The time for truth in skincare has come. Apply to test the SkinOracle iPhone app for 4 weeks: Roxy reads every application and picks the 100 testers herself.
+
+## Free tools
+
+- [The Skin Toolkit: free skin-care tools](https://skinoracle.ai/toolkit/): Can I mix these? Cost per use, an ingredient decoder, is it still good?, a starter routine builder and myth or fact. Free, no sign-up, with the answers written out.
+- [Price engine: the five best prices for a skin-care product](https://skinoracle.ai/prices/): Search a skin-care product and see its five lowest prices, cheapest per ml first, from retailers’ official sources, checked within the last day. Sorted by price, never by commission.
+- [Skin games: one minute each](https://skinoracle.ai/games/): Layer it right, the price check and the routine meter: three one-minute games about how to use skin care well.
+
+## Learn: the science and tips
+
+- [The science of skin care, made simple](https://skinoracle.ai/science/): How skin actually works: the barrier, actives, layering and sunscreen, answer first, with sources and a dermatologist’s review.
+- [What is the skin barrier, and why does it matter?](https://skinoracle.ai/science/skin-barrier/): Your skin barrier is the outermost layer of your skin: flat cells held together by fats, a bit like bricks and mortar. It keeps water in and irritants out, and when it’s worn down, skin tends to feel dry, tight and quick to sting.
+- [What does “active ingredient” mean in skin care?](https://skinoracle.ai/science/actives/): An “active” is an ingredient added to change how skin looks or behaves over time, like a retinoid, an exfoliating acid or vitamin C. Actives can do a lot, which is exactly why more isn’t better: the right one, used steadily, beats several used at once.
+- [In what order should I apply skin care?](https://skinoracle.ai/science/layering/): Apply skin care from the thinnest texture to the thickest, after cleansing, and finish with sunscreen in the morning. Some actives work better at different times of day, so both the order and the pairing matter.
+- [Do I really need sunscreen every day?](https://skinoracle.ai/science/sunscreen/): Yes: daily sunscreen is the most protective step in any routine, because UV reaches skin on cloudy days and through windows, and its effects add up over years. Use enough (about two finger-lengths for face and neck), choose broad spectrum SPF 30 or higher, and reapply every two hours outdoors.
+- [Skin-care tips: little tips, big difference](https://skinoracle.ai/tips/): Short, practical skin-care tips: layering, patch testing, sunscreen amounts and more, with the reason for each.
+
+## Fresh: news and recalls
+
+- [Musings by Roxy: short, sweet columns on skin care](https://skinoracle.ai/musings/): Roxy’s editorial column: short, upbeat notes on skin care, product news and new gadgets, with the odd detour into food, travel and weather. Never sponsored.
+- [What’s in my rotation right now: Roxy’s skin-care picks](https://skinoracle.ai/whats-in-my-rotation/): Roxy, SkinOracle’s founder, on the six products she actually uses right now (and one that got voted off), with no affiliate links and no paid placements.
+- [Skin-care news, explained calmly](https://skinoracle.ai/news/): Skin-care news and new studies in plain words, from reviewed sources. Unbiased and never sponsored.
+- [Skin-care product recalls](https://skinoracle.ai/recalls/): Safety notices and recalls for skin-care products, from official sources such as the FDA, Health Canada and the EU Safety Gate.
+
+## About and policies
+
+- [About SkinOracle and Roxy](https://skinoracle.ai/about/): Why Roxy built SkinOracle: an independent skin-care companion that helps you use what you already own, and often tells you to buy less.
+- [How we stay independent](https://skinoracle.ai/independence/): No sponsored content or paid placements, and no brand can pay to change what we say. We may earn a commission on some price links, but offers are always sorted by price. How SkinOracle stays unbiased.
+- [Help](https://skinoracle.ai/help/): Answers to common questions about SkinOracle, and how to reach us.
+- [Privacy](https://skinoracle.ai/privacy/): How SkinOracle handles your information.
+- [Terms](https://skinoracle.ai/terms/): SkinOracle’s terms of use.
+
+## Optional
+
+- [Everything in one file](https://skinoracle.ai/llms-full.txt): the science, tips, toolkit answers and ingredient notes as plain text.
+- [Sitemap](https://skinoracle.ai/sitemap.xml)

@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/toolkit.DqrkzCzk.js","_astro/toolkit.DwTmyArY.js"])))=>i.map(i=>d[i]);
+import{t as e}from"./preload-helper.DHhhL8Zf.js";import{t}from"./when-near.CzF2ED16.js";t(`[data-toolkit]`,()=>e(()=>import(`./toolkit.DqrkzCzk.js`),__vite__mapDeps([0,1])));
